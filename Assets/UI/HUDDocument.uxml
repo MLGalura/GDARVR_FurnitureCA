@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Toggle name="Toggle" value="false" text="   View Planes" style="margin-left: 6px; max-width: 150px; min-width: 150px; margin-right: auto; margin-top: 6px;" />
+    <ui:VisualElement name="ButtonGroup" style="flex-grow: 1; position: relative; margin-top: auto; top: auto; left: auto; margin-right: 0;">
+        <ui:Button text="Chair" name="Chair" style="max-width: 100px; min-width: 100px;" />
+        <ui:Button text="Light" name="Light" style="min-width: 100px; max-width: 100px;" />
+        <ui:Button text="Sofa" name="Sofa" enable-rich-text="true" style="max-width: 100px; min-width: 100px;" />
+    </ui:VisualElement>
+</ui:UXML>
